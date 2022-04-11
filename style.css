@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Archivo', sans-serif;
+}
+#principal{
+    background-color:black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    height: max-content;
+    text-align: center;  
+}
+nav#list {
+    display: block;
+
+}
+#menu {
+  list-style: none; 
+  display: flex; 
+}
+li {
+    padding: 20px;
+    text-transform: uppercase;
+    width:1,1rem;
+    text-align: center;
+    font-size: 15px;
+}
+h1 {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a :hover{
+    cursor: pointer;
+    color: coral;
+}
+#footer{
+    background-color: brown;
+}
+
+#corpo {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('imgens/automobile-gd4731e544_1280.jpg') no-repeat center center/cover;
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: color ;
+}
+#corpo h2{
+    text-align: center;
+    font-size: 40px;
+}
+footer#rodape{
+    height:max-content;
+    width:100%;
+    text-align: center;
+    display:block;
+    background-color:#474a5194;
+    
+}
+footer#rodape p{
+    font-size: 16px;
+
+}
+footer#rodape a{
+    display:inline-flex;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
