@@ -5,10 +5,6 @@
     margin: 0%;
     font-family: 'Archivo', sans-serif;
 }
-body{
-    margin: auto;
-    max-width: auto;
-}
 #principal{
     background-color:black;
     color: white;
